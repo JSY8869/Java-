@@ -4,6 +4,7 @@
 - 주로 쓰는 개발 도구는 Visual Studio Code이며, Eclipse도 사용한다.
 - 1 ~ 4장의 내용은 너무 기초적인 내용이기에 기록하지 않는다.
 - 5장 배열 array 챕터부터 중요한 내용만 정리할 것이다.
+- Develop branch에서 학습한 후 학습 완료 시 Master로 merge할 예정
 
 ## 계획
 - 일주일에 1~2 챕터를 공부한다.

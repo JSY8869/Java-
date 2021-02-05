@@ -1,0 +1,19 @@
+public class ArrayEx8 {
+    public static void main(String[] args){
+        int[] ball = new int[45];
+        
+        for(int i = 0; i < ball.length; i++)
+            ball[i] = i+1;
+        int temp = 0; // 두 값을 바꾸는데 사용할 임시변수
+        int j = 0; // 임의의 값을 얻어서 저장할 변수
+
+        for(int i = 0; i < ball.length; i++){
+            j = (int) (Math.random() * 45);
+            temp = ball[i];
+            ball[i] = ball[j];
+            ball[j] = temp;
+        }
+        System.out.println(ball[0]);
+    }
+    
+}
